@@ -1,0 +1,15 @@
+<a href="/articles/new">Create new</a>
+
+<h1>List of articles</h1>
+
+<ul>
+<% @articles.each do | art |   %>
+
+
+ <li><%= link_to art.title, art %> 
+ 
+ 
+ <% end %>
+ 
+ 
+ </ul>
