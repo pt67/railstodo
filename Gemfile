@@ -70,3 +70,9 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem "dockerfile-rails", ">= 1.7", :group => :development
+
+gem "pg", "~> 1.6"
+
+gem "aws-sdk-s3", "~> 1.200", :require => false
