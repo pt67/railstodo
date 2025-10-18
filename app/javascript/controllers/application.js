@@ -1,4 +1,7 @@
 import { Application } from "@hotwired/stimulus"
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 const application = Application.start()
 

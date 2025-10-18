@@ -15,6 +15,7 @@
 /log/*
 /tmp/*
 !/log/.keep
+temp_auto_push.bat
 !/tmp/.keep
 
 # Ignore pidfiles, but keep the directory.
@@ -33,3 +34,5 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+temp_interactive_push.bat
+branch_structure.json
